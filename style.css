@@ -3,6 +3,7 @@ body {
     margin: 50px;
     padding: 20px;
     background-color: #83defa;
+    text-shadow: #ffffff 2px 2px 4px;
 }
 
 h1 {
