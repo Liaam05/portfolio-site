@@ -1,6 +1,5 @@
 let myButton = document.querySelector('button');
 
-
 function chengeImg() {
     let myImage = document.querySelector('img');
     let mySrc = myImage.getAttribute("src");
@@ -13,7 +12,6 @@ function chengeImg() {
 
 myButton.onclick = chengeImg;
 
-/*
 const myImage = document.querySelector('img');
 
 myImage.onclick = () => {
@@ -24,4 +22,3 @@ myImage.onclick = () => {
         myImage.setAttribute("src", "images/first_img.png");
     }
 }
-*/
