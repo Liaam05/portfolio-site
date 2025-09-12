@@ -21,7 +21,7 @@ p, ul {
     line-height: 1.6;
 }
 
-img.photo {
+img {
     max-width: 200px;
     height: auto;
     display: block;
