@@ -6,6 +6,24 @@ body {
     text-shadow: #ffffff 2px 2px 4px;
 }
 
+.page-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #333;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 h1 {
     color: #333;
     text-align: center;
