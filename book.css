@@ -5,5 +5,33 @@ body {
     background-color: #f4f1de;
     color: #333;
     line-height: 1.8;
-    text-align: center;
+}
+
+.book-card {
+    border: 1px solid #ffc868;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+#add-book-form div{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#add-book-form label {
+    width: 80px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#add-book-form input[type="text"],
+#add-book-form textarea {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
